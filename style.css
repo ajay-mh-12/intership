@@ -1,3 +1,10 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "TTNormsProCond-Blk", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
 header{
     display: flex;
     position: fixed;
@@ -10,12 +17,16 @@ header{
     width: 500px;
     display: flex;
     justify-content: end;
+    gap: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
 }
 .image{
     flex: 1;
     display: flex;
     align-items: center;
-    justify-content: end;
+    justify-content: center;
+    padding-left: 400px;
 }
 .section1{
     height: 650px;
@@ -33,21 +44,81 @@ header{
     flex-direction: column;
     
 }
-.sign in{
-     border-radius: 10px;
-     width: 500px;
-     background-color: aqua;
+.sign-in{
+     border-radius: 30px;
+     height: 35px;
+     width: 80px;
+     background-color: red;
+     color: white;
+     font-weight: bold;
+     border: none;
 
 }
 .delivery button{
     border-radius: 40px;
-    width: 250px;
-    height: 30px;
-    margin-top:10px ;
+    width: 203px;
+    height: 32px;
+    margin-top:10px;
+    padding-left: 12px;
+    font-weight: bold;
 }
 .type{
     border-radius: 40px;
     width: 370px;
     height: 50px;
+    padding-left: 50px;
+    font-weight: 500;
+    font-size: 16px;
+
+}
+.image img{
+    width: 225px;
+}
+.sign-up{
+    border-radius: 40px;
+    height: 40px;
+    width: 90px;
+    color: black;
+    font-weight: bold;
+    border: none;
+}
+.delivery h1{
+    color:rgb(255, 255, 255);
+    font-weight: 900;
+    font-size: 40px;
+    text-align: center;
+    max-width: 750px;
+
+}
+.input-filed{
+    position: relative;
+}
+.location-icon{
+    position: absolute;
+    left: 15px;
+    top: 12px;
+
+}
+
+.input-button{
+    width: 40px;
+    height: 40px;
+    border-radius: 9999px;
+    background-color: red;
+    position: absolute;
+    right: 14px;
+    top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.address-button{
+    position: relative;
+}
+.user-icon{
+    position: absolute;
+    left: 12px;
+    top: 18px;
 }
     
