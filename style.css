@@ -1,0 +1,53 @@
+header{
+    display: flex;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 80px;
+}
+.switch{
+    width: 500px;
+    display: flex;
+    justify-content: end;
+}
+.image{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.section1{
+    height: 650px;
+    background:url(imag/hero_desktop\ \(1\).webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+.delivery{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 650px;
+    flex-direction: column;
+    
+}
+.sign in{
+     border-radius: 10px;
+     width: 500px;
+     background-color: aqua;
+
+}
+.delivery button{
+    border-radius: 40px;
+    width: 250px;
+    height: 30px;
+    margin-top:10px ;
+}
+.type{
+    border-radius: 40px;
+    width: 370px;
+    height: 50px;
+}
+    
