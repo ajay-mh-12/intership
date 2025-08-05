@@ -1,0 +1,13 @@
+*{
+    font-family: verdana;
+    margin: 0;
+}
+
+body{
+ background-color: blueviolet;
+ color: #333;
+}
+.Header{
+    width: 30px;
+    background-color: chartreuse;
+}

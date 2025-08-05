@@ -1,0 +1,15 @@
+p{
+    color: crimson;
+    background-color: rgb(218, 238, 239);
+}
+div ol li.ar{
+    color: rgb(228, 98, 172);
+    border-width: 4px;
+}
+div ol li.mr{
+    color: chartreuse;
+    border-width: 56px;
+}
+div ol li.anu{
+    color: black;
+}

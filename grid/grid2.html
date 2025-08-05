@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Using Css Grid</title>
+    <style>
+        body{
+            color: #fff;
+            font-family:'Nunito semibold';
+            text-align: center;
+        }
+        #content{
+            display: grid;
+            max-width:960px;
+            margin:0 auto;
+            /* /* grid-template-colum1 ; */
+            /* grid-template-columns: 1fr 1fr 1fr; */
+            grid-template-columns: repeat(3,fr);
+            /* grid-auto-rows:minmax(200px,auto); */
+            /* grid-template-rows: repeat(3,minmax(200px,auto)); */
+            grid-gap: 10px;
+        }
+        #content div{
+            background: #3bbced;
+            padding: 30px;
+
+        }
+        #content div:nth-child(even){
+            background: #777;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="content">
+
+        <div>1</div>
+        <div>2</div>
+        <div><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam odit, quae cumque sapiente in magnam autem minima quas aut laboriosam pariatur assumenda, voluptas et omnis eligendi enim alias dignissimos. Maiores nihil magnam sunt ex reiciendis corrupti culpa quod, minus nostrum velit dolore voluptates, animi itaque, obcaecati cum. Illo, ipsum? Delectus sit atque debitis vel ducimus, facere id expedita natus recusandae blanditiis impedit tenetur eaque. Ab adipisci temporibus tempore pariatur hic quae amet iure et inventore explicabo, veritatis consequuntur assumenda reprehenderit porro ullam consequatur!</p></div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+
+    </div>
+</body>
+
+    
+</html>
