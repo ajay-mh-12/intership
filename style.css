@@ -17,7 +17,7 @@ header{
     width: 500px;
     display: flex;
     justify-content: end;
-    gap: 10px;
+    gap: 8px;
     padding-top: 10px;
     padding-right: 10px;
 }
@@ -26,7 +26,9 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-left: 400px;
+    padding-left: 484px;
+    padding-bottom: 8px;
+    gap: 12px;
 }
 .section1{
     height: 650px;
@@ -46,11 +48,12 @@ header{
 }
 .sign-in{
      border-radius: 30px;
-     height: 35px;
-     width: 80px;
-     background-color: red;
+     height: 40px;
+     width: 81.54px;
+     background-color:#EB1700;
      color: white;
-     font-weight: bold;
+     font-weight: 700;
+     font-size: 18px;
      border: none;
 
 }
@@ -61,6 +64,7 @@ header{
     margin-top:10px;
     padding-left: 12px;
     font-weight: bold;
+    border: none;
 }
 .type{
     border-radius: 40px;
@@ -69,10 +73,16 @@ header{
     padding-left: 50px;
     font-weight: 500;
     font-size: 16px;
+    border: none;
 
 }
-.image img{
-    width: 225px;
+.d-img{
+    width: 42px;
+    height: 24px;
+}
+.door-img{
+    width: 155px;
+    height: 18px;
 }
 .sign-up{
     border-radius: 40px;
@@ -88,6 +98,7 @@ header{
     font-size: 40px;
     text-align: center;
     max-width: 750px;
+    margin-bottom: 10px;
 
 }
 .input-filed{
@@ -121,4 +132,6 @@ header{
     left: 12px;
     top: 18px;
 }
-    
+@media screen and (max-width:1024px){
+
+}
