@@ -12,23 +12,118 @@ header{
     right: 0;
     top: 0;
     height: 80px;
+    display: none;
 }
 .switch{
     width: 500px;
     display: flex;
     justify-content: end;
     gap: 8px;
-    padding-top: 10px;
-    padding-right: 10px;
+    padding-top: 16px;
+    padding-right: 14px;
 }
 .image{
     flex: 1;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-left: 484px;
+    padding-left: 498px;
     padding-bottom: 8px;
     gap: 12px;
+}
+.header2{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 95px;
+    padding-bottom: 10px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 95px;
+}
+.open{
+    border-radius: 9999px;
+    width: 66.2px;
+    min-height: 32px;
+    background-color: #eb1700ff;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+}
+.switch2{
+    padding-right: 10px;
+    padding-top: 25px;
+}
+.new-switch{
+    position: relative;
+    top: 120px;
+    left: 128px;
+}
+.login{
+    width:66.35px ;
+    border-radius:9999px ;
+    height: 40px;
+    background-color: #ffffff;
+    color:#191919ff;
+
+}
+.app{
+    width:100.8px ;
+    border-radius:9999px ;
+    height:40px ;
+    background-color:#eb1700 ;
+    color:#ffffff ;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+}
+.image2{
+    display: flex;
+    align-items: center;
+}
+.star{
+    display: flex;
+    margin-top: 6px;
+    gap: 4px;
+}
+.star p{
+    margin-top:-4px;
+    font-size: 14px;
+
+
+}
+.rating{
+    padding-left:8px;
+    padding-top: 21px;
+}
+.rating h4{
+    color: #191919ff;
+    font-weight: 700;
+}
+.rating p{
+    color: #606060ff;
+    font-weight: 500;
+    font-size: 14px;
+
+}
+
+.d2-image{
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #f1f1f1ff;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 25px;
+}
+.d2-image svg{
+    width: 51.25px;
+    height: 29.12px;
 }
 .section1{
     height: 650px;
@@ -61,19 +156,25 @@ header{
     border-radius: 40px;
     width: 203px;
     height: 32px;
-    margin-top:10px;
+    margin-top:16px;
     padding-left: 12px;
     font-weight: bold;
     border: none;
+    background-color: white;
 }
 .type{
-    border-radius: 40px;
-    width: 370px;
-    height: 50px;
-    padding-left: 50px;
+    border-radius: 32px;
+    width: 408px;
+    height: 56px;
+    padding-left: 58px;
+    padding-top: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
     font-weight: 500;
     font-size: 16px;
     border: none;
+    margin-top: 17px;
+    margin-right: 4px;
 
 }
 .d-img{
@@ -85,11 +186,13 @@ header{
     height: 18px;
 }
 .sign-up{
-    border-radius: 40px;
+    border-radius: 9999px;
     height: 40px;
     width: 90px;
-    color: black;
-    font-weight: bold;
+    color:#606060ff;
+    font-weight: 700;
+    font-size: 18px;
+    background-color: #ffffff;
     border: none;
 }
 .delivery h1{
@@ -98,7 +201,8 @@ header{
     font-size: 40px;
     text-align: center;
     max-width: 750px;
-    margin-bottom: 10px;
+    margin-top:62px ;
+    margin-right: 2px;
 
 }
 .input-filed{
@@ -106,8 +210,8 @@ header{
 }
 .location-icon{
     position: absolute;
-    left: 15px;
-    top: 12px;
+    left: 20px;
+    top: 32px;
 
 }
 
@@ -115,23 +219,102 @@ header{
     width: 40px;
     height: 40px;
     border-radius: 9999px;
-    background-color: red;
+    background-color:#EB1700;
     position: absolute;
-    right: 14px;
-    top: 5px;
+    right: 10px;
+    top: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
-.address-button{
+.address1-button{
     position: relative;
 }
 .user-icon{
     position: absolute;
-    left: 12px;
-    top: 18px;
+    left: 10px;
+    top: 26px;
 }
-@media screen and (max-width:1024px){
+.address1-button button{
+    border-radius: 40px;
+    width: 203px;
+    height: 32px;
+    margin-top:16px;
+    padding-left: 12px;
+    font-weight: bold;
+    border: none;
+    background-color: white;
+}
+.address2-button button{
+    border-radius: 9999px;
+    width: 88.74px;
+    height: 32px;
+    margin-top:16px;
+    padding-left: 12px;
+    font-weight: bold;
+    border: none;
+    background-color: white;
+    
+}
+.address2-button{
+    position: relative;
+    display: none;
+}
 
+
+
+
+@media screen and (max-width:1024px){
+    .image{
+        padding-left: 406px;
+    }
+
+}
+@media screen and (max-width:768px){
+    .image{
+        padding-left: 308px;
+        padding-bottom: 12px;
+        gap: 8px;
+    }
+    .d-img{
+        width: 32px;
+        height: 18px;
+
+    }
+    .door-img{
+        width: 112px;
+        height: 13px;
+    }
+    .delivery h1{
+        max-width: 350px;
+        font-size: 22px;
+        height: 48px;
+    }
+    .address1-button{
+        display: none;
+    }
+    .address2-button{
+        display: block;
+    }
+    .type{
+        margin-top: 32px;
+    }
+    .location-icon{
+        top: 47px;
+        left: 22px;
+    }
+    .input-button{
+        top: 40px;
+        right: 12px;
+    }
+    .user-icon{
+        left: 11px;
+        top: 24px;
+    }
+    .address2-button button{
+        padding-left: 17px;
+        padding-bottom: 3px;
+    }
+    
 }
