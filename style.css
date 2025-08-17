@@ -1137,6 +1137,7 @@ header{
     background: url(./imag/central\ hand.avif);
     background-repeat: no-repeat;
     background-size: cover;
+    object-fit: cover;
     background-position: center;
     width: 100%;
     height: 600px;
@@ -1158,6 +1159,7 @@ header{
     font-size: 40px;
     margin: 20px 0px 0px;
     font-family: Tmedium;
+    font-weight: 700;
     text-align: center;
     line-height: 40px;
     font-weight: 700;
@@ -1165,7 +1167,7 @@ header{
 .hand h4{
     width: 382px;
     height: 24px;
-    font-family: regular;
+    font-family: Tmedium;
     font-size: 20px;
     margin: 20px 0px 0px;
     color: #ffffff;
@@ -1193,11 +1195,56 @@ header{
     text-align: center;
     margin-top: 30px;
 }
-
-@media screen and (max-width:1024px){
-    
+@media screen and (max-width:450px){
+     .five{
+        height: 350px;
+     }
+     .hand{
+        margin: 70px 0px;
+     }
+     .hand h2{
+        width: 383px;
+        height: 56px;
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 28px;
+        letter-spacing: -0.01;
+        margin: 20px 0px 0px;
+     }
+     .hand h4{
+        height: 22px;
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: -0.01px;
+        margin: 10px 0px 0px; ;
+     }
+     .hand p{
+        width: 425px;
+        height: 40px;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+     }
+     .hand button{
+        width: 123px;
+        height: 32px;
+        font-size: 14px;
+     }
+     
+    }
+    @media screen and (max-width:375px){
+    .hand h2{
+        width: 337px;
+    }
+    .hand h4{
+        width: 344px;
+    }
+    .hand p{
+        font-size: 14px;
+        height: 40px;
+        width: 374px;
+    }
 }
-
 
 
 /*sectionsix*/
